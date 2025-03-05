@@ -25,7 +25,7 @@ menu>a {
 }
 
 menu>a:nth-child(1) {
-    color: red;
+    color: #ff0000;
 }
 
 nav>button {
@@ -151,7 +151,7 @@ nav>button {
 }
 
 .section-three>p {
-    color: red;
+    color: #ff0000;
     font-size: large;
 }
 
@@ -203,11 +203,11 @@ footer {
 }
 
 footer>p {
-    color: white;
+    color: #ffffff;
 }
 
 footer>h1 {
-    color: red;
+    color: #ff0000;
 }
 
 .social {
