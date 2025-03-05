@@ -81,3 +81,51 @@ nav>button {
     color: #314585;
     font-weight: bolder;
 }
+/* second section */
+.container{
+    padding: 5vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+.f-child >h2 , .s-child>h2 ,.t-child >h2{
+    color: #153d79;
+    width: 40%;
+
+}
+.btn3{
+    
+        border: none;
+        background-color: #ff3845;
+        border-radius: 25px;
+        padding: 2vh 2vw ;
+        font-weight: bolder;
+        color: #ffff;
+        margin-top: 2vh;
+    }
+    .s-child>p ,.t-child >p{
+
+        color: #153d79;
+        width: 40%;
+        font-size: 14px;
+    
+    }
+    .s-child ,.t-child{
+      width: 20rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+        padding: 5vh 0.5vw ;
+        border-radius: 5px;
+    
+     
+    }
+
