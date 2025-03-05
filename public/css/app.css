@@ -149,8 +149,9 @@ nav>button {
     gap: 2vh;
 
 }
-.section-three > p{
-    color: red ;
+
+.section-three>p {
+    color: red;
     font-size: large;
 }
 
@@ -190,7 +191,8 @@ textarea {
 
 
 }
-footer{
+
+footer {
     margin-top: 5vh;
     background-color: #11305e;
     display: flex;
@@ -199,23 +201,95 @@ footer{
     align-items: center;
     padding: 3vh 0;
 }
-footer >p  {
+
+footer>p {
     color: white;
 }
-footer >h1{
+
+footer>h1 {
     color: red;
 }
-.social{
-    
+
+.social {
+
     font-weight: bold;
     display: flex;
     gap: 2vw;
 }
-.social>a{
+
+.social>a {
     color: white;
 }
 
-.contact{
+.contact {
     display: flex;
     gap: 2vw;
+}
+
+#menu {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+@media (max-width:480px) {
+
+    menu {
+        background-color: white;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        top: 0%;
+        right: -200%;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 5vh !important;
+        padding: 5vw !important;
+
+    }
+
+    #menu:checked~menu {
+        right: 0;
+    }
+
+    label {
+        display: block;
+    }
+
+    .close {
+        align-self: end;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+      padding-left: 0;
+    }
+
+    .image>img {
+        width: 50vw !important;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .section-three>form {
+        flex-direction: column;
+    }
+    .btn {
+      flex-direction: column;
+      gap: 2vh;
+
+    }
+
+
 }
