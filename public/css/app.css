@@ -28,22 +28,56 @@ menu>a:nth-child(1) {
     color: red;
 }
 
-button {
-    background-color: white;
+nav>button {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    padding: 2vh 2vw;
     color: red;
-    border: 1px solid white;
-    padding: 2vh 4vw;
-    font-size: large;
-    font-weight: bold;
-
-
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+
 .hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 8rem;
+    
 }
 .text{
     display: flex;
     flex-direction: column;
+    color: rgb(178, 170, 170);
+    gap: 2rem;
+}
+
+
+.text>h1{
+    color: #314585;  
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    border: none;
+    background-color: #ff3845;
+    border-radius: 15px;
+    padding: 1.5vh 3vw ;
+    font-weight: bolder;
+    color: #2c3657;
+}
+
+.btn2{
+    border: none;
+    background-color: white;
+    color: #314585;
+    font-weight: bolder;
 }
